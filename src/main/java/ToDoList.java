@@ -42,7 +42,6 @@ public class ToDoList {
         }
     }
 
-    // ---------- Task operations ----------
 
     public Task addTask(String description, Integer categoryId) throws SQLException {
         String sql = "INSERT INTO task (description, is_complete, category_id) VALUES (?, FALSE, ?)";
@@ -75,7 +74,7 @@ public class ToDoList {
                 }
             }
         }
-        return null; // Caller decides how to handle "not found"
+        return null;
     }
 
     public List<Task> viewAllTasks() throws SQLException {

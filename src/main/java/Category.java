@@ -1,8 +1,4 @@
 
-
-/**
- * Category entity representing a grouping for tasks.
- */
 public class Category {
     private int categoryId;
     private String categoryName;

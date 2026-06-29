@@ -1,13 +1,11 @@
 
 
-/**
- * Task entity representing a single to-do item.
- */
+
 public class Task {
     private int taskId;
     private String description;
     private boolean isComplete;
-    private Integer categoryId; // FK to Category, nullable
+    private Integer categoryId;
 
     public Task() {
     }
