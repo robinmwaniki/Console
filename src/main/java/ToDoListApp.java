@@ -129,7 +129,7 @@ public class ToDoListApp {
             if (tasks.isEmpty()) {
                 System.out.println("No tasks yet. Add one from the menu!");
             } else {
-                System.out.println("---- All Tasks ----");
+                System.out.println(" All Tasks ");
                 for (Task task : tasks) {
                     System.out.println(task);
                 }
@@ -181,7 +181,7 @@ public class ToDoListApp {
             if (categories.isEmpty()) {
                 System.out.println("No categories yet. Add one from the menu!");
             } else {
-                System.out.println("---- All Categories ----");
+                System.out.println("All Categories");
                 for (Category category : categories) {
                     System.out.println(category);
                 }
